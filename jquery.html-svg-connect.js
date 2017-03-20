@@ -179,9 +179,6 @@
         // 1. move a bit right, 2. arch, 3. move a bit down, 4.arch, 5. move right to the end
         $path.attr("d", "M" + startX + " " + startY +
           " H" + (startX + offset + delta) +
-          " A" + delta + " " + delta + " 0 0 " + arc1 + " " + (startX + offset + 2 * delta) + " " + (startY + delta * sigY) +
-          " V" + (endY - delta * sigY) +
-          " A" + delta + " " + delta + " 0 0 " + arc2 + " " + (startX + offset + 3 * delta) + " " + endY +
           " H" + endX);
       } else {
         //Horizontal
