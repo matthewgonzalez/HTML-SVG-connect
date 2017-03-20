@@ -177,7 +177,7 @@
         }
         // Draw the pipe-like path
         // 1. move a bit right, 2. arch, 3. move a bit down, 4.arch, 5. move right to the end
-        $path.attr("d", "L" + startX + " " + startY);
+        $path.attr("d", "L" + startX + " " + endX);
       } else {
         //Horizontal
         var sigX = this.sign(endX - startX);
